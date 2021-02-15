@@ -9,6 +9,11 @@ public class ProductWarehouse extends Warehouse {
         return this.productName;
     }
 
+    public void setName(String newName) {
+        productName = newName;
+    }
+
+
     public String toString() {
         return this.productName + ": " + super.toString();
     }
